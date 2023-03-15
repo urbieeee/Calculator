@@ -1,0 +1,41 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(51, 84, 84);
+    height: 100vh;
+}
+
+.screen {
+    width: 224px;
+    background-color: rgb(176, 205, 176);
+    font-size: 40px;
+    text-align: end;
+    padding: 4px;
+}
+
+.calculator {
+    background-color: rgb(211, 211, 211);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#equals {
+    background-color: #CC0000;
+}
+
+#equals:hover {
+    background-color: #FF6666
+}
+
+#equals:active {
+    background-color: #660000;
+}

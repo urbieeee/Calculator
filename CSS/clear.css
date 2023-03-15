@@ -1,0 +1,13 @@
+#clear {
+    width: 100%;
+    font-size: 25px;
+    background-color: #FFCC33;
+}
+
+#clear:hover {
+    background-color: #CC9933;
+}
+
+#clear:active {
+    background-color: #996600;
+}
